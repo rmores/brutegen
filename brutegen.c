@@ -49,8 +49,7 @@ void gera(char p[],char q[], int num)
 	vet=(int*)calloc(num,sizeof(int));
 	if (vet == NULL )
         exit(1);
-
-	//printf("%d\n",vet[1]);
+	
 	while ( jaAcabou(vet,num,tam) == 0 )
 	{
 
@@ -69,9 +68,6 @@ void gera(char p[],char q[], int num)
 				vet[(num - 1)] = -1; // gambiarra pra dar zero ali embaixo
 			}
 		vet[(num - 1)]++;
-
-		//printf("%d\n",vet[1]);
-
 	}
 
 }
@@ -83,10 +79,6 @@ int main(int argc, char **argv)
 {
 	int num;
 	char palavra[256];
-
-    argc = 3;
-    argv[1] = "3";
-    argv[2] = "abcd";
 
 	if (argc < 3)
 	{
