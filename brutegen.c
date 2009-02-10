@@ -82,7 +82,7 @@ int main(int argc, char **argv)
 
 	if (argc < 3)
 	{
-		printf("%s Copyright (C) 2009  Rafael F. M. Mores\n \
+		printf("%s Copyright (C) 2009  Rafael Mores\n \
 		This program comes with ABSOLUTELY NO WARRANTY;\n \
 		This is free software, and you are welcome to redistribute it\n \
 		under certain conditions; \n\n",argv[0]);
